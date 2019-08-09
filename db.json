@@ -1,49 +1,31 @@
 [{
   "id": 1,
-  "name": "Sobe - Green Tea",
-  "description": "integer ac leo pellentesque ultrices mattis odio donec vitae nisi",
-  "price": "€2,27",
-  "beilage": "mit ohne alles"
-}, {
-  "id": 2,
-  "name": "Slt - Individual Portions",
-  "description": "vitae nisl aenean lectus pellentesque eget nunc donec quis orci eget orci vehicula condimentum curabitur",
-  "price": "€5,69",
-  "beilage": "Mayo"
-}, {
-  "id": 3,
-  "name": "Wine - Prosecco Valdobienne",
-  "description": "quam suspendisse potenti nullam porttitor lacus at turpis donec posuere metus vitae ipsum aliquam",
-  "price": "€2,13",
-  "beilage": "Mayo"
-}, {
-  "id": 4,
-  "name": "Artichokes - Knobless, White",
-  "description": "tortor duis mattis egestas metus aenean fermentum donec ut mauris eget massa tempor convallis nulla neque libero convallis",
-  "price": "€4,01",
-  "beilage": "Mayo"
-}, {
-  "id": 5,
-  "name": "External Supplier",
-  "description": "fusce lacus purus aliquet at feugiat non pretium quis lectus suspendisse potenti in eleifend",
-  "price": "€3,37",
+  "name": "Beer - Corona",
+  "description": "imperdiet nullam orci pede venenatis non sodales sed tincidunt eu",
+  "price": "€3,67",
   "beilage": "Nutella?!"
 }, {
-  "id": 6,
-  "name": "Chinese Foods - Chicken",
-  "description": "nulla dapibus dolor vel est donec odio justo sollicitudin ut suscipit a feugiat et",
-  "price": "€1,13",
+  "id": 2,
+  "name": "Vegetable - Base",
+  "description": "sem fusce consequat nulla nisl nunc nisl duis bibendum felis sed interdum venenatis turpis enim blandit mi",
+  "price": "€7,68",
   "beilage": "Ketchup"
 }, {
-  "id": 7,
-  "name": "Cranberries - Dry",
-  "description": "erat id mauris vulputate elementum nullam varius nulla facilisi cras non velit nec nisi vulputate nonummy",
-  "price": "€8,58",
+  "id": 3,
+  "name": "Coconut Milk - Unsweetened",
+  "description": "odio curabitur convallis duis consequat dui nec nisi volutpat eleifend",
+  "price": "€2,83",
+  "beilage": "Ketchup"
+}, {
+  "id": 4,
+  "name": "Cornflakes",
+  "description": "purus sit amet nulla quisque arcu libero rutrum ac lobortis vel dapibus at diam",
+  "price": "€7,71",
+  "beilage": "Nutella?!"
+}, {
+  "id": 5,
+  "name": "Soap - Hand Soap",
+  "description": "non velit nec nisi vulputate nonummy maecenas tincidunt lacus at velit",
+  "price": "€1,68",
   "beilage": "mit ohne alles"
-}, {
-  "id": 8,
-  "name": "Doilies - 10, Paper",
-  "description": "nibh ligula nec sem duis aliquam convallis nunc proin at turpis a pede posuere nonummy integer non",
-  "price": "€8,30",
-  "beilage": "Ketchup"
 }]
