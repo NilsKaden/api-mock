@@ -26,43 +26,44 @@ export default class NewsProvider extends Component {
         console.log('did mount');
         this.poll();
 
-        // queryUrl is first url to be polled
-
         setInterval(() => { console.log('polling now!'); this.poll()}, refreshRateInSeconds * 1000); 
     }
 
     // takes json and url as argument. Fetches URL, loads the json and appends it to the supplied json (or empty default)
     // to be called recursively on itself to buildup the json
-    fetchAndBuildJSON = (url, repeatNTimes, json = []) => {
-
+    fetchAndBuildJSON = async (url, repeatNTimes, json = []) => {
         console.log('fetch and build', url, repeatNTimes, json);
+
         if (repeatNTimes === 0) {
             return json;
         }
 
-        return (
-            fetch(url)
-                .then(res => res.json())
-                .then(newJson => {
-                    const mergedJson = [...Object.values(json), ...Object.values(newJson)];
-                    const nextUrl = mergedJson[mergedJson.length - 1].next_page;
-            
-                    // extra exit condition if there is no more url we can follow
-                    if (nextUrl === "") {
-                        return mergedJson;
-                    }
-            
-                    return (this.fetchAndBuildJSON(nextUrl, repeatNTimes - 1, mergedJson));
-                })
-        );
+        const res = await fetch(url);
+        const newJson = await res.json();
+        const mergedJson = [...json, ...newJson];
+        console.log('old, new, merged: ', json, newJson, mergedJson);
+
+        const nextUrl = mergedJson[mergedJson.length - 1].next_page;
+        console.log('nextUrl:' , nextUrl);
+
+        if (nextUrl === "") {
+            return mergedJson;
+        }
+
+        return (this.fetchAndBuildJSON(nextUrl, repeatNTimes - 1, merg
+            edJson));
     }
 
     handleLoadMoreClick() {
         const { loadMoreNewsCounter } = this.state;
+        // const { queryurl } = this.props;
+
+        console.log('increasing state, and polling afterwards');
 
         this.setState({
             loadMoreNewsCounter: loadMoreNewsCounter + 1,
         }, () => this.poll());
+
     }
 
     // tested and works
@@ -102,7 +103,7 @@ export default class NewsProvider extends Component {
         return newsHTML;
     }
 
-    poll() {
+    async poll() {
         const { data, loadMoreNewsCounter } = this.state;
         const { queryurl } = this.props;
 
@@ -111,22 +112,27 @@ export default class NewsProvider extends Component {
         // initial poll
         if (data === null) {
             this.setState({
-                data: this.fetchAndBuildJSON(queryurl, loadMoreNewsCounter),
+                data: await this.fetchAndBuildJSON(queryurl, loadMoreNewsCounter),
             });
         }
 
         // check if the news has changed, if so, refetch everything
-        fetch(queryurl)
-            .then(res => res.json())
-            .then(reFetchedJson => {
-                console.log(data, reFetchedJson);
-                // if something has changed, refetch all
-                if (!data || reFetchedJson[0].id !== data[0].id) {
-                    this.setState({
-                        data: this.fetchAndBuildJSON(queryurl, loadMoreNewsCounter),
-                    });
-                }
+        const res =  await fetch(queryurl);
+        const reFetchedJson = await res.json();
+        console.log('inside poll fetch', data, reFetchedJson);
+
+        this.setState({
+            data: await this.fetchAndBuildJSON(queryurl, loadMoreNewsCounter),
+        });
+
+        // refactor 
+        /*
+        if (reFetchedJson[0].id !== data[0].id) {
+            this.setState({
+                data: await this.fetchAndBuildJSON(queryurl, loadMoreNewsCounter),
             });
+        }
+        */
     }
 
     render() {
