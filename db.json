@@ -10,7 +10,9 @@
       "Produkte"
     ],
     "teaser_is_large":"false",
-    "teaser_picture":"/fs5preview_4167/preview/4167/media/DE/current/8105/ORIGINAL/demo_hero.png",
+    "teaser_picture_s":"/fs5preview_4167/preview/4167/media/DE/current/8105/ORIGINAL/demo_hero.png",
+    "teaser_picture_m":"/fs5preview_4167/preview/4167/media/DE/current/8105/ORIGINAL/demo_hero.png",
+    "teaser_picture_l":"/fs5preview_4167/preview/4167/media/DE/current/8105/ORIGINAL/demo_hero.png",
     "teaser_picture_alt":"ein lastwagen",
     "teaser_text":"This placeholder text is gonna be HUGE. Lorem Ipsum is FAKE TEXT! I think the only card she has is the Lorem card. Despite the constant negative ipsum covfefe."
   },
@@ -24,7 +26,10 @@
     "taxonomies":[  
       "Entwicklung"
     ],
-    "teaser_picture":"/fs5preview_4167/preview/4167/media/DE/current/8105/ORIGINAL/demo_hero.png",
+    "teaser_picture_s":"/fs5preview_4167/preview/4167/media/DE/current/8105/ORIGINAL/demo_hero.png",
+    "teaser_picture_m":"/fs5preview_4167/preview/4167/media/DE/current/8105/ORIGINAL/demo_hero.png",
+    "teaser_picture_l":"/fs5preview_4167/preview/4167/media/DE/current/8105/ORIGINAL/demo_hero.png",
+
     "teaser_picture_alt":"hero alt",
     "teaser_picture_size":"true",
     "teaser_text":"Lorem Ipsum better hope that there are no \"tapes\" of our conversations before he starts leaking to the press! You know, it really doesn’t matter what you write as long as you’ve got a young, and beautiful, piece of text. Lorem Ipsum better hope that there "
@@ -40,7 +45,9 @@
     "taxonomies":[  
       "Eppendorf"
     ],
-    "teaser_picture":"/fs5preview_4167/preview/4167/media/DE/current/8105/ORIGINAL/demo_hero.png",
+    "teaser_picture_s":"/fs5preview_4167/preview/4167/media/DE/current/8105/ORIGINAL/demo_hero.png",
+    "teaser_picture_m":"/fs5preview_4167/preview/4167/media/DE/current/8105/ORIGINAL/demo_hero.png",
+    "teaser_picture_l":"/fs5preview_4167/preview/4167/media/DE/current/8105/ORIGINAL/demo_hero.png",
     "teaser_picture_alt":"alt",
     "teaser_picture_size":"true",
     "teaser_text":"Teaser Text"
