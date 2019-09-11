@@ -34,5 +34,21 @@
   {
     "name":"reddit",
     "href":"http://reddit.com"
+  },
+  {
+    "name":"eppendorf",
+    "href":"http://eppendorf.de"
+  },
+  {
+    "name":"eppendorf2",
+    "href":"http://eppendorf.de"
+  },
+  {
+    "name":"eppendorf3",
+    "href":"http://eppendorf.de"
+  },
+  {
+    "name":"eppendorf4",
+    "href":"http://eppendorf.de"
   }
 ]
