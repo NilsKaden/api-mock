@@ -6,5 +6,33 @@
   {
     "name":"bing",
     "href":"http://bing.com"
+  },
+  {
+    "name":"facebook",
+    "href":"http://facebook.com"
+  },
+  {
+    "name":"twitter",
+    "href":"http://twitter.com"
+  },
+  {
+    "name":"netflix",
+    "href":"http://netflix.com"
+  },
+  {
+    "name":"amazon",
+    "href":"http://amazon.com"
+  },
+  {
+    "name":"airbnb",
+    "href":"http://airbnb.com"
+  },
+  {
+    "name":"youtube",
+    "href":"http://youtube.com"
+  },
+  {
+    "name":"reddit",
+    "href":"http://reddit.com"
   }
 ]
