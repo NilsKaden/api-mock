@@ -1,18 +1,18 @@
-JS -> MS
+/* JS -> MS */
 
 {
   "query": "lorem ipsum",
 }
 
-MS -> JS
+/* MS -> JS */
 
 [
   {
-    "result": "lorem ipsum dolor"
+    "result": "lorem ipsum dolor",
     "id": "12942846"
   },
   {
-    "result": "lorem ipsum amet dolor aayyy"
+    "result": "lorem ipsum amet dolor aayyy",
     "id": "12111146"
   }
 ]
