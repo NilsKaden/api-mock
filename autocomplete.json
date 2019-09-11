@@ -7,10 +7,6 @@
 /* MS -> JS */
 
 [
-  {
-    "result": "lorem ipsum dolor"
-  },
-  {
-    "result": "lorem ipsum amet dolor aayyy"
-  }
+  "result": "lorem ipsum dolor",
+  "result": "lorem ipsum amet dolor aayyy"
 ]
