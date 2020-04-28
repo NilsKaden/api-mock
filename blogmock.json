@@ -24,5 +24,31 @@
       "profile_picture_l": "ABCDEFGHIJKLMNOP",
       "profile_picture_alt": "alt"
     }
+  },
+  {
+    "category": "BLOG2",
+    "id": "ABCDEFGH",
+    "date": "01.01.1971",
+    "headline": "Headline lorem2",
+    "href": "#",
+    "teaser_text": "teaser text2",
+    "locations": [],
+    "taxonomies": [],
+    "teaser_picture_s": "https://picsum.photos/170",
+    "teaser_picture_m": "http://picsum.photos/730/410",
+    "teaser_picture_l": null,
+    "teaser_picture_alt": "alt",
+    "reading_time": 900,
+    "author": {
+      "id": "id",
+      "firstname": "first2",
+      "lastname": "last2",
+      "role": "role",
+      "profile_link": "#",
+      "profile_picture_s": null,
+      "profile_picture_m": "ABCDEFGHIJKLMNOPQRSTUVWXYZA",
+      "profile_picture_l": "ABCDEFGHIJKLMNOP",
+      "profile_picture_alt": "alt"
+    }
   }
 ]
