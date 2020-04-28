@@ -1,0 +1,28 @@
+[
+  {
+    "category": "BLOG",
+    "id": "ABCDEFGH",
+    "date": "01.01.1970",
+    "headline": "Headline lorem",
+    "href": "#",
+    "teaser_text": "teaser text",
+    "locations": [],
+    "taxonomies": [],
+    "teaser_picture_s": "ABCDEFGHIJKLMNOPQRST",
+    "teaser_picture_m": null,
+    "teaser_picture_l": null,
+    "teaser_picture_alt": "alt",
+    "reading_time": 900,
+    "author": {
+      "id": "id",
+      "firstname": "first",
+      "lastname": "last",
+      "role": "role",
+      "profile_link": "#",
+      "profile_picture_s": null,
+      "profile_picture_m": "ABCDEFGHIJKLMNOPQRSTUVWXYZA",
+      "profile_picture_l": "ABCDEFGHIJKLMNOP",
+      "profile_picture_alt": alt
+    }
+  }
+]
