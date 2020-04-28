@@ -1,0 +1,15 @@
+{
+  "category": "NEWS",
+  "id": "ABCDEFGHIJKLMNOPQRSTUVWXYZABC",
+  "date": "01.01.1970",
+  "headline": "Headline",
+  "href": "#",
+  "teaser_text": "teaser text",
+  "locations": [],
+  "taxonomies": [],
+  "teaser_is_large": false,
+  "teaser_picture_s": "#",
+  "teaser_picture_m": "#",
+  "teaser_picture_l": "#",
+  "teaser_picture_alt": "alt"
+}
