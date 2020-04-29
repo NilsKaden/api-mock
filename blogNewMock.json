@@ -1,0 +1,84 @@
+{
+   "content":[
+      {
+         "id":"9896",
+         "date":"2020-04-17T11:15Z",
+         "headline":"A sample blog entry",
+         "href":"https://intranet.eppendorf.de/nachrichten/nachrichten-details_8896.html",
+         "locations":[
+            "Berlin",
+            "Leipzig",
+            "Hamburg"
+         ],
+         "taxonomies":[
+            "Vorstandsblog",
+            "Corona"
+         ],
+         "author":{
+            "id":"1111",
+            "firstname":"Alex",
+            "lastname":"Author",
+            "role":"CIO",
+            "profile_link":"https://intranet.eppendorf.de/kontakte/kontakt-details_1111.html",
+            "profile_picture_s":"https://intranet.eppendorf.de/kontakte/alex-author_mobile.jpg",
+            "profile_picture_m":"https://intranet.eppendorf.de/kontakte/alex-author_tablet.jpg",
+            "profile_picture_l":"https://intranet.eppendorf.de/kontakte/alex-author_mobile.jpg",
+            "profile_picture_alt":"A alt text for the picture"
+         },
+         "category":"BLOG",
+         "teaser_picture_l":"https://intranet.eppendorf.de/inhalte/bilder/corona/kinderbilder/jasper-22-mon_dorothee-mateja_we_are_family_teaser_image_mobile.jpg",
+         "teaser_picture_m":"https://intranet.eppendorf.de/inhalte/bilder/corona/kinderbilder/jasper-22-mon_dorothee-mateja_we_are_family_teaser_image_tablet.jpg",
+         "teaser_picture_s":"https://intranet.eppendorf.de/inhalte/bilder/corona/kinderbilder/jasper-22-mon_dorothee-mateja_we_are_family_teaser_image_mobile.jpg",
+         "teaser_picture_alt":null,
+         "teaser_text":"Does everybody know that pig named Lorem Ipsum? She's a disgusting pig, right? I think the only card she has is the Lorem card.",
+         "reading_time":5
+      },
+      {
+         "id":"9896",
+         "date":"2020-04-17T11:15Z",
+         "headline":"A sample blog entry",
+         "href":"https://intranet.eppendorf.de/nachrichten/nachrichten-details_8896.html",
+         "locations":[
+            "Berlin",
+            "Leipzig",
+            "Hamburg"
+         ],
+         "taxonomies":[
+            "Vorstandsblog",
+            "Corona"
+         ],
+         "author":{
+            "id":"1111",
+            "firstname":"Alex",
+            "lastname":"Author",
+            "role":"CIO",
+            "profile_link":"https://intranet.eppendorf.de/kontakte/kontakt-details_1111.html",
+            "profile_picture_s":"https://intranet.eppendorf.de/kontakte/alex-author_mobile.jpg",
+            "profile_picture_m":"https://intranet.eppendorf.de/kontakte/alex-author_tablet.jpg",
+            "profile_picture_l":"https://intranet.eppendorf.de/kontakte/alex-author_mobile.jpg",
+            "profile_picture_alt":"A alt text for the picture"
+         },
+         "category":"BLOG",
+         "teaser_picture_l":"https://intranet.eppendorf.de/inhalte/bilder/corona/kinderbilder/jasper-22-mon_dorothee-mateja_we_are_family_teaser_image_mobile.jpg",
+         "teaser_picture_m":"https://intranet.eppendorf.de/inhalte/bilder/corona/kinderbilder/jasper-22-mon_dorothee-mateja_we_are_family_teaser_image_tablet.jpg",
+         "teaser_picture_s":"https://intranet.eppendorf.de/inhalte/bilder/corona/kinderbilder/jasper-22-mon_dorothee-mateja_we_are_family_teaser_image_mobile.jpg",
+         "teaser_picture_alt":null,
+         "teaser_text":"Does everybody know that pig named Lorem Ipsum? She's a disgusting pig, right? I think the only card she has is the Lorem card.",
+         "reading_time":5
+      }
+   ],
+   "pageable":"INSTANCE",
+   "totalPages":1,
+   "totalElements":2,
+   "last":true,
+   "first":true,
+   "sort":{
+      "sorted":false,
+      "unsorted":true,
+      "empty":true
+   },
+   "number":0,
+   "numberOfElements":2,
+   "size":2,
+   "empty":false
+}
